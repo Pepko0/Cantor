@@ -8,18 +8,19 @@ html {
 
 .body {
     font-family: 'Roboto', sans-serif;
-    background: white;
+
 }
 
 .form {
     max-width: 750px;
     margin: 20px auto; 
-    padding: 0 20px;
+
 }
 
 .converter {
     border-radius: 5px;
-
+    margin: unset;
+    background: white;
 }
 
 .converter__title {
@@ -43,9 +44,19 @@ html {
     border: 1px solid #ccc;
     padding: 15px;
     width: 100%;
-    max-width: 300px;
+    max-width: 325px;
     border-radius: 5px;
     text-align: center;
+}
+
+.converter__field:hover {
+    border: 1px solid;
+    cursor: pointer;
+}
+
+.converter__field--important:hover {
+    border: 1px solid;
+    cursor: pointer; 
 }
 
 .converter__field--important {
@@ -53,7 +64,7 @@ html {
     border: 1px solid #ccc;
     padding: 15px;
     width: 100%;
-    max-width: 300px;
+    max-width: 325px;
     border-radius: 5px;
     text-align: center;
     font-weight: bold;
@@ -64,16 +75,15 @@ html {
 
 }
 
-.converter__option {
-    text-align: left;
+.button--aligne {
+    text-align: center;
+    background: none;
 }
 
 .button {
     text-align: center;
-    width: 100%;
-    margin-top: 5px ;
-    margin-right: 20px;
-    margin-bottom: 10px;
+    width: 372px;
+    margin: 5px auto;
     border: 1px solid teal;
     background: #9ac7c7;
     border-radius: 5px;
