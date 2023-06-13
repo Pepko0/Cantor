@@ -18,5 +18,5 @@ const JPY = 0.033;
 
 ## This is how look website on the social media:
 ![social](images/social.bmp)
-## Link to my website: https://pepko0.github.io/Cantor/
+## Link to my website: https://pepko0.github.io/converter-react/
 version: **beta**
